@@ -1,9 +1,11 @@
 html {
   -ms-touch-action: none;
+  background: transparent;
 }
 
 body, canvas, div {
   display: block;
+  background: transparent;
   outline: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
@@ -34,18 +36,13 @@ body {
   margin: 0;
 
   cursor: default;
-  color: #88888800;
-  background-color: #33333300;
+  color: transparent;
 
   text-align: center;
   font-family: Helvetica, Verdana, Arial, sans-serif;
 
   display: flex;
   flex-direction: column;
-}
-
-canvas {
-  background-color: rgba(0, 0, 0, 0);
 }
 
 #GameDiv, #Cocos3dGameContainer, #GameCanvas {
